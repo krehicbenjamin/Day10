@@ -4,8 +4,8 @@ var myPet = {
   legs: 4,
   friends: ["Jimmy", "Bed"]
 };
-function myFucntion(myObj) {
+function myFunction(myObj) {
   return myObj;
 }
-console.log(myFucntion(myPet));
+console.log(myFunction(myPet));
 module.exports = { myPet, myFunction };
